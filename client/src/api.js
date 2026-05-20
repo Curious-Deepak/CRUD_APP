@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://crud-app-zp8o.onrender.com';
+const API_URL = 'https://crud-app-zp8o.onrender.com/api/items';
 
 const apiClient = axios.create({
   baseURL: API_URL,
